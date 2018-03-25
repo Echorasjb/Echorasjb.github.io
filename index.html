@@ -1,290 +1,307 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Echora 2.0</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="master.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
-    <link rel="icon" href="images/echora.jpg" type="image/gif" sizes="16x16">
+    <head>
+        <title>Echora 2.0</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="master.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+        <link rel="icon" href="images/echora.jpg" type="image/gif" sizes="16x16">
+        
+    </head>
     
-  </head>
-  
-  <body>
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top" >
-      <div class="w3-bar" id="myNavbar">
-        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-          <i class="fa fa-bars"></i>
-        </a>
-        <a href="#home" class="w3-bar-item w3-button" style="text-decoration: none;color: #222f3e">HOME</a>
-        <a href="#events" class="w3-bar-item w3-button w3-hide-small" style="text-decoration: none;color: #222f3e"><i class="fa fa-"></i> EVENTS</a>
-        <a href="#about" class="w3-bar-item w3-button w3-hide-small" style="text-decoration: none;color: #222f3e"><i class="fa fa-user"></i> ABOUT</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="text-decoration: none;color: #222f3e"><i class="fa fa-envelope"></i> CONTACT</a>
-      </div>
-    </div>
-    <!-- Main Body Page Starts here -->
-    <!-- First Parallax Image with Logo Text -->
-    <div id="home" class="bgimg-1 w3-display-container w3-opacity-min" id="home" >
-      <div class="w3-display-middle" style="white-space:nowrap; display:block">
-        <div>
-          <img src="images/mask.png" style="text-align: center; height: 100px; width: 100px;"> <!-- Echora Logo -->
+    <body style="background-color: skyblue; background-repeat: repeat;">
+        <!-- Navbar (sit on top) -->
+        <!--<div class="w3-top" >
+            <div class="w3-bar" id="myNavbar">
+                <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <a href="#home" class="w3-bar-item w3-button" style="text-decoration: none;color: #222f3e">HOME</a>
+                <a href="#events" class="w3-bar-item w3-button w3-hide-small" style="text-decoration: none;color: #222f3e"><i class="fa fa-"></i> EVENTS</a>
+                <a href="#about" class="w3-bar-item w3-button w3-hide-small" style="text-decoration: none;color: #222f3e"><i class="fa fa-user"></i> ABOUT</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-hide-small" style="text-decoration: none;color: #222f3e"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+        </div>-->
+        <!-- Main Body Page Starts here -->
+        <!-- First Parallax Image with Logo Text -->
+        <!--<div id="home" class="bgimg-1 w3-display-container w3-opacity-min" id="home" >
+            <div class="w3-display-middle" style="white-space:nowrap; display:block">
+                <div>
+                    <img src="images/mask.png" style="text-align: center; height: 100px; width: 100px;">--> <!-- Echora Logo -->
+                <!--</div>
+                <div style="text-align:center; display:block">
+                    <span class="w3-center w3-padding-large w3-black w3-jumbo w3-wide w3-animate-opacity" style="padding: 90px;">ECHORA 2.0</span><br><br>
+                    <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity" style="padding:20px;">23<sup>rd</sup> March 2018</span>
+                </div> -->
+                <!-- Promo video link -->
+                <!-- <div style="text-align: center;">
+                    <iframe width="400" height="270" src="https://www.youtube.com/embed/rLFIVAihZ8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="margin-top:80px; display:block; margin-left:auto; margin-right:auto; "></iframe>
+                </div>
+            </div>
         </div>
-        <div style="text-align:center; display:block">
-          <span class="w3-center w3-padding-large w3-black w3-jumbo w3-wide w3-animate-opacity" style="padding: 90px;">ECHORA 2.0</span><br><br>
-          <span class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity" style="padding:20px;">23<sup>rd</sup> March 2018</span>
-        </div>
-        <!-- Promo video link -->
-        <div style="text-align: center;">
-          <iframe width="400" height="270" src="https://www.youtube.com/embed/rLFIVAihZ8o" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="margin-top:80px; display:block; margin-left:auto; margin-right:auto; "></iframe>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="container-fluid">
-      <br>
-      <h2 id="events" style="text-align: center;font-family:Trebuchet MS "><b>Events</b></h2>
-      <br>
-      <div class="row">
-        <div class="col-md-3">
-          <div class="row" style="text-align: center;">
-            <div class="col-md-12">
-              <a href="technical.html"><img src="images/technical1.jpeg" alt="" style="width:200px;height: 200px;border-radius: 5%"></a>
-              <h4>Technical</h4>
-            </div>
-          </div>
-          <hr>
-          <div class="row" style="text-align: center;">
-            <div class="col-md-12">
-              <a href="nontechnical.html"><img src="images/nontech.jpeg" alt="" style="width:200px;height: 200px;border-radius: 5%"></a>
-              <h4>Non-Technical</h4>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <br>
-          <h4 style="text-align: center;"><b>Special Events</b></h4>
-          <div class="w3-content w3-display-container" style="text-align: center;">
-            <div class="w3-display-container mySlides">
-              <img src="images/marathon.png" style="height: 400px; width: 100%;">
-            </div>
-
-            <div class="w3-display-container mySlides">
-              <a href="humblerulesheet.html" target="_blank">
-                <img src="images/humblepaltician1.png" style="height: 400px; width: 100%;">
-              </a>
-            </div>
-
-            <div class="w3-display-container mySlides">
-              <a href="mockcidrulesheet.html" target="_blank">
-                <img src="images/mock-cid.png" style="height: 400px; width: 100%;">
-              </a>
-            </div>
-
-            <div class="w3-display-container mySlides">
-              <a href="projectrulesheet.html" target="_blank">
-                <img src="images/projectexhibition.png" style="height: 400px; width: 100%;">
-              </a>
-            </div>
-            
-            <button class="w3-button w3-display-left w3-hover-black " onclick="plusDivs(-1)" style="color: white">&#10094;</button>
-            <button class="w3-button w3-display-right w3-hover-black " onclick="plusDivs(1)" style="color: white">&#10095;</button>
+        <hr>
+        <div class="container-fluid">
             <br>
-          </div>
-          
-          <br>
-          <a href="" style="text-align: center;"><img src=""></a>
-        </div>
-        
-        <div class="col-md-3">
-          <div class="row" style="text-align: center;">
-            <div class="col-md-12">
-              <a href="gaming.html"><img src="images/gaming1.jpg" alt="" style="width:200px; height: 200px;border-radius: 5%"></a>
-              <h4>Gaming</h4>
-            </div>
-          </div>
-          <hr>
-          <div class="row">
-            <div class="col-md-12" style="text-align: center;">
-              <a href="sports.html"><img src="images/sports.jpeg" alt="" style="width:200px; height: 200px;border-radius: 5%"></a>
-              <h4>Sports</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--
-    start of about -->
-    <br>
-    <div class="container-fluid" id="about" style="background-color: #FFF1AD;font-family: courier ">
-      <div class="row" style="text-align: center;color: black;">
-        <br><br>
-        <h1 style="font-family: courier "><b>About</b></h1>
-        <br>
-        <hr style="width: 70%; margin-left: auto; margin-right: auto; border-color: black">
-        <br>
-        <div class="col-md-1">
-          
-        </div>
-        <div class="col-md-5" style="color: black">
-          <h4 style="font-family: courier "><b>About College</b></h4>
-          <p style="text-align: justify;padding: 50px;">SJB Institute of Technology is one amongst these institutions started during the year 2001. SJBIT is committed to personal, social, and intellectual growth emphasizing a comprehensive educational programme leading to high academic standards. Spread across sprawling 50 acres of land, the SJBIT is located amidst natural serene atmosphere, 14 km from Bengaluru city, near Kengeri. It is affiliated to Visvesvaraya Technological University, Belagavi, approved by AICTE, New Delhi.</p>
-        </div>
-        <div class="col-md-5" style="color: black;">
-          <h4 style="font-family: courier "><b>About Fest</b></h4>
-          <p style="text-align: justify ;padding: 50px; justify-content: center;">
-            The first Techno-Cultural edition of the Echora fest scaled unparalleled grandeur and garnered stern
-            response for the Eco-Marathon sponsored by BGS Global Hospitals. Besides, the three-day long
-            event hosted the IEEE Conference with nearly 100 jury members of foreign delegation and witnessed
-            over 4000 participants. <br>
-            However, ECHORA 2k18 will see The Karnataka Air Pollution Board tie up with the BGS Global Hospitals
-            to subsist the Eco-Marathon 2.0. ECHORA 2k18 will be based exclusively on an all-filmy theme which
-            is all set to astound the audience.
-          </p>
-        </div>
-        <div class="col-md-1">
-          
-        </div>
-      </div>
-      <div class="row" style="text-align: center;">
-        <a href="" ><img src="" style="background-color:#FFF1AD "></a>
-      </div>
-      <br>
-    </div>
-    <br><br><br>
-    <!-- start of contacts -->
-    <div class="container-fluid">
-      <h1 style="text-align: center;">CONTACTS</h1>
-      <div class="row" >
-        
-      </div>
-    </div>
-  </div>
-  <script>
-  var slideIndex = 1;
-  showDivs(slideIndex);
-  function plusDivs(n) {
-  showDivs(slideIndex += n);
-  }
-  function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-  x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-  }
-  </script>
-  <div id="contact" class="container-fluid">
-    <div class="panel panel-default">
-      <div class="panel-body">
-        <div class="row" >
-          <div class="col-md-6">
-            
-            <h5 style="text-align: center">FIND US HERE</h5>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1218724738555!2d77.49359415057879!3d12.899884090858343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f15cd2b48fb%3A0x46277e17c8b2ccc3!2sSJB+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1520317324889" width="100%" height="300" frameborder="0" style="border:1px black;padding-top: ;padding-left: 20px" allowfullscreen></iframe>
-          </div>
-          <div class="col-md-6">
-            <h5 style="text-align: center">Contacts</h5>
+            <h2 id="events" style="text-align: center;font-family:Trebuchet MS "><b>Events</b></h2>
+            <br>
             <div class="row">
-              <div class="col-md-6">
-                <div class="media">
-                  <div class="media-left media-middle">
-                    <a href="#contact">
-                      <img class="media-object" src="images/rk.png" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <p class="media-heading" style="padding-top: 15px">RADHAKRISHNA K</p>
-                    9901770011
-                  </div>
+                <div class="col-md-3">
+                    <div class="row" style="text-align: center;">
+                        <div class="col-md-12">
+                            <a href="technical.html"><img src="images/technical1.jpeg" alt="" style="width:200px;height: 200px;border-radius: 5%"></a>
+                            <h4>Technical</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row" style="text-align: center;">
+                        <div class="col-md-12">
+                            <a href="nontechnical.html"><img src="images/nontech.jpeg" alt="" style="width:200px;height: 200px;border-radius: 5%"></a>
+                            <h4>Non-Technical</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="media">
-                  <div class="media-left media-middle">
-                    <a href="#contact">
-                      <img class="media-object" src="images/sourabh.jpg" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <p class="media-heading" style="padding-top: 15px">SOURABH N D</p>
-                    8747959516
+                <div class="col-md-6">
+                    <br>
+                    <h4 style="text-align: center;"><b>Special Events</b></h4>
+                    <div class="w3-content w3-display-container" style="text-align: center;">
+                        <div class="w3-display-container mySlides">
+                            <img src="images/marathon.png" style="height: 400px; width: 100%;">
+                        </div>
+                        <div class="w3-display-container mySlides">
+                            <a href="humblerulesheet.html" target="_blank">
+                                <img src="images/humblepaltician1.png" style="height: 400px; width: 100%;">
+                            </a>
+                        </div>
+                        <div class="w3-display-container mySlides">
+                            <a href="mockcidrulesheet.html" target="_blank">
+                                <img src="images/mock-cid.png" style="height: 400px; width: 100%;">
+                            </a>
+                        </div>
+                        <div class="w3-display-container mySlides">
+                            <a href="projectrulesheet.html" target="_blank">
+                                <img src="images/projectexhibition.png" style="height: 400px; width: 100%;">
+                            </a>
+                        </div>
+                        
+                        <button class="w3-button w3-display-left w3-hover-black " onclick="plusDivs(-1)" style="color: white">&#10094;</button>
+                        <button class="w3-button w3-display-right w3-hover-black " onclick="plusDivs(1)" style="color: white">&#10095;</button>
+                        <br>
+                    </div>
                     
-                  </div>
+                    <br>
+                    <a href="" style="text-align: center;"><img src=""></a>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="media">
-                  <div class="media-left media-middle">
-                    <a href="#contact">
-                      <img class="media-object" src="images/hemanth.png" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <p class="media-heading" style="padding-top: 15px">HEMANTH KUMAR P</p>
-                    8123135601
-                  </div>
+                
+                <div class="col-md-3">
+                    <div class="row" style="text-align: center;">
+                        <div class="col-md-12">
+                            <a href="gaming.html"><img src="images/gaming1.jpg" alt="" style="width:200px; height: 200px;border-radius: 5%"></a>
+                            <h4>Gaming</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-12" style="text-align: center;">
+                            <a href="sports.html"><img src="images/sports.jpeg" alt="" style="width:200px; height: 200px;border-radius: 5%"></a>
+                            <h4>Sports</h4>
+                        </div>
+                    </div>
                 </div>
-                <div class="media">
-                  <div class="media-left media-middle">
-                    <a href="#contact">
-                      <img class="media-object" src="images/kaustubh.jpg" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
-                    </a>
-                  </div>
-                  <div class="media-body">
-                    <p class="media-heading" style="padding-top: 15px">KAUSTUBH M H </p>
-                    9663751797
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
+        </div> -->
+        <!--
+        start of about -->
+        <!-- <br>
+        <div class="container-fluid" id="about" style="background-color: #FFF1AD;font-family: courier ">
+            <div class="row" style="text-align: center;color: black;">
+                <br><br>
+                <h1 style="font-family: courier "><b>About</b></h1>
+                <br>
+                <hr style="width: 70%; margin-left: auto; margin-right: auto; border-color: black">
+                <br>
+                <div class="col-md-1">
+                    
+                </div>
+                <div class="col-md-5" style="color: black">
+                    <h4 style="font-family: courier "><b>About College</b></h4>
+                    <p style="text-align: justify;padding: 50px;">SJB Institute of Technology is one amongst these institutions started during the year 2001. SJBIT is committed to personal, social, and intellectual growth emphasizing a comprehensive educational programme leading to high academic standards. Spread across sprawling 50 acres of land, the SJBIT is located amidst natural serene atmosphere, 14 km from Bengaluru city, near Kengeri. It is affiliated to Visvesvaraya Technological University, Belagavi, approved by AICTE, New Delhi.</p>
+                </div>
+                <div class="col-md-5" style="color: black;">
+                    <h4 style="font-family: courier "><b>About Fest</b></h4>
+                    <p style="text-align: justify ;padding: 50px; justify-content: center;">
+                        The first Techno-Cultural edition of the Echora fest scaled unparalleled grandeur and garnered stern
+                        response for the Eco-Marathon sponsored by BGS Global Hospitals. Besides, the three-day long
+                        event hosted the IEEE Conference with nearly 100 jury members of foreign delegation and witnessed
+                        over 4000 participants. <br>
+                        However, ECHORA 2k18 will see The Karnataka Air Pollution Board tie up with the BGS Global Hospitals
+                        to subsist the Eco-Marathon 2.0. ECHORA 2k18 will be based exclusively on an all-filmy theme which
+                        is all set to astound the audience.
+                    </p>
+                </div>
+                <div class="col-md-1">
+                    
+                </div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <a href="" ><img src="" style="background-color:#FFF1AD "></a>
+            </div>
+            <br>
         </div>
-        <footer class="w3-container w3-center w3-margin-top" style="background-color: #FFF1AD ">
-          <p >Find us on social media.</p>
-          <h1>
-          <a href="https://www.facebook.com/echora2.0" target="_blank"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-          <a href="https://www.instagram.com/_echora_2.0/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
-          
-          
-          <a href="mailto:sjbit.echora@gmail.com" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a>
-          </h1>
-          
-        </footer>
-        
-        
-      </div>
-      
+        <br><br><br> -->
+        <!-- start of contacts -->
+        <!-- <div class="container-fluid">
+            <h1 style="text-align: center;">CONTACTS</h1>
+            <div class="row" >
+                
+            </div>
+        </div>
     </div>
-  </div>
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    function plusDivs(n) {
+    showDivs(slideIndex += n);
+    }
+    function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+    }
+    </script>
+    <div id="contact" class="container-fluid">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row" >
+                    <div class="col-md-6">
+                        
+                        <h5 style="text-align: center">FIND US HERE</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.1218724738555!2d77.49359415057879!3d12.899884090858343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f15cd2b48fb%3A0x46277e17c8b2ccc3!2sSJB+Institute+of+Technology!5e0!3m2!1sen!2sin!4v1520317324889" width="100%" height="300" frameborder="0" style="border:1px black;padding-top: ;padding-left: 20px" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 style="text-align: center">Contacts</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <div class="media-left media-middle">
+                                        <a href="#contact">
+                                            <img class="media-object" src="images/rk.png" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="media-heading" style="padding-top: 15px">RADHAKRISHNA K</p>
+                                        9901770011
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left media-middle">
+                                        <a href="#contact">
+                                            <img class="media-object" src="images/sourabh.jpg" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="media-heading" style="padding-top: 15px">SOURABH N D</p>
+                                        8747959516
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="media">
+                                    <div class="media-left media-middle">
+                                        <a href="#contact">
+                                            <img class="media-object" src="images/hemanth.png" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="media-heading" style="padding-top: 15px">HEMANTH KUMAR P</p>
+                                        8123135601
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    <div class="media-left media-middle">
+                                        <a href="#contact">
+                                            <img class="media-object" src="images/kaustubh.jpg" alt="..." style="height: 75px; width: 75px; border-radius: 10%;">
+                                        </a>
+                                    </div>
+                                    <div class="media-body">
+                                        <p class="media-heading" style="padding-top: 15px">KAUSTUBH M H </p>
+                                        9663751797
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="w3-container w3-center w3-margin-top" style="background-color: #FFF1AD ">
+                    <p >Find us on social media.</p>
+                    <h1>
+                    <a href="https://www.facebook.com/echora2.0" target="_blank"> <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+                    <a href="https://www.instagram.com/_echora_2.0/" target="_blank"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+                    
+                    
+                    <a href="mailto:sjbit.echora@gmail.com" target="_blank"><i class="fa fa-envelope w3-hover-opacity"></i></a>
+                    </h1>
+                    
+                </footer>
+                
+                
+            </div>
+            
+        </div>
+    </div>
 </div>
 <div class="row">
-  <div class="col-md-1">
-    <p style="padding-left: 10px">Designers:</p>
-  </div>
-  <div class="col-md-2">
-    <img src="images/kaustubh.jpg" alt="..." style="width:50px; padding-right:10px"> <strong style="padding-right:20px">Kaustubh M H,</strong>
-  </div>
-  <div class="col-md-2">
-    <img src="images/hemanth.png" alt="" style="width:50px; padding-right:10px"><strong style="padding-right:20px">Hemanth Kumar P</strong>
-  </div>
-  <div class="col-md-2">
-    <img src="images/vineeth.png" alt="..." style="width:60px; padding-right:10px;"><strong style="padding-right:20px">Vineeth V S</strong>
-  </div>
-  <div class="col-md-2">
-    
-  </div>
-  <div class="col-md-2">
-    
-  </div>
-  <div class="col-md-1">
-    
-  </div>
+    <div class="col-md-1">
+        <p style="padding-left: 10px">Designers:</p>
+    </div>
+    <div class="col-md-2">
+        <img src="images/kaustubh.jpg" alt="..." style="width:50px; padding-right:10px"> <strong style="padding-right:20px">Kaustubh M H,</strong>
+    </div>
+    <div class="col-md-2">
+        <img src="images/hemanth.png" alt="" style="width:50px; padding-right:10px"><strong style="padding-right:20px">Hemanth Kumar P</strong>
+    </div>
+    <div class="col-md-2">
+        <img src="images/vineeth.png" alt="..." style="width:60px; padding-right:10px;"><strong style="padding-right:20px">Vineeth V S</strong>
+    </div>
+    <div class="col-md-2">
+        
+    </div>
+    <div class="col-md-2">
+        
+    </div>
+    <div class="col-md-1">
+        
+    </div>
+</div>-->
+<div class="row" ">
+    <div class="col-md-4">
+        
+    </div>
+    <div class="col-md-4">
+        <div>
+            <h2 style="font-family: Helvetica; font-size: 20px; text-align: center; margin-top:50%; transform: translateY(-5%); color: black">
+            The Server has been taken down
+            <br><br>
+            Hope you had a great time with us! :)
+            <br><br>
+            See you next year. Till then farewell!
+            <br><br>
+            <img src="images/see_you.gif" alt="See_you gif" style="">
+        </div>
+    </div>
+    <div class="col-md-4">
+        
+    </div>
 </div>
 </body>
 </html>
